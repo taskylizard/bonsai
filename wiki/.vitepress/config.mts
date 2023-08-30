@@ -1,28 +1,31 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
+import { generateSidebar } from "vitepress-sidebar";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Ivy",
-  description: "Our personal digital garden.",
+  title: "☘️ Bonsai",
+  description: "☘️ Our personal digital garden.",
+  lang: "en-US",
+  lastUpdated: true,
+  cleanUrls: true,
+  appearance: "dark",
+  titleTemplate: ":title • Bonsai",
+  head: [
+    ["meta", { name: "theme-color", content: "#b4f9f8" }],
+    ["meta", { name: "og:type", content: "website" }],
+    ["meta", { name: "og:locale", content: "en" }],
+  ],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    sidebar: generateSidebar({
+      documentRootPath: "docs",
+      collapseDepth: 2,
+      capitalizeFirst: true,
+      useTitleFromFileHeading: true,
+    }),
+    search: {
+      provider: "local",
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/taskylizard/bonsai" },
+    ],
+  },
+});
