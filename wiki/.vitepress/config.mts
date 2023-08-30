@@ -16,7 +16,6 @@ export default defineConfig({
   ],
   themeConfig: {
     sidebar: generateSidebar({
-      rootGroupText: "☘️ Bonsai",
       documentRootPath: "wiki",
       collapseDepth: 2,
       capitalizeFirst: true,

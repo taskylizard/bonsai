@@ -1,5 +1,12 @@
 # Git
 
+- [Lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for common git commands, personally my favorite tool.
+- [github/gitignore](https://github.com/github/gitignore) - Useful `.gitignore` files for your projects
+- [git-flow](https://github.com/nvie/gitflow)
+- [pre-commit](https://github.com/pre-commit/pre-commit) - Manage git hooks for your projects, written in Python and has support for various languages.
+- [Lucky Commit](https://github.com/not-an-aardvark/lucky-commit) - Customize your git commit hashes
+- [git-annex](https://git-annex.branchable.com)
+
 ## Bidirectional syncing of repository
 
 This is a guide on how to setup a bidirectional git mirror for a repository. This is also how this wiki is synced.
