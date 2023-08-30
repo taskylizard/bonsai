@@ -12,7 +12,7 @@ It's powered by [Vitepress](https://vitepress.dev) for documentation with custom
 
 Collaborators: [taskylizard](https://github.com/taskylizard), [lenicyl](https://github.com/lenicyl), [SleepDaemon](https://github.com/SleepDaemon)
 
-This repository is also mirrored to my personal git, https://git.bignutty.xyz/taskyyy/bonsai, via a bidirectional mirror.
+[This repository is also mirrored to my personal git](https://git.bignutty.xyz/taskyyy/bonsai), [via a bidirectional mirror](https://wiki.bignutty.xyz/development/git).
 
 ## License
 

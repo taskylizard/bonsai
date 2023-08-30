@@ -16,7 +16,8 @@ export default defineConfig({
   ],
   themeConfig: {
     sidebar: generateSidebar({
-      documentRootPath: "docs",
+      rootGroupText: "☘️ Bonsai",
+      documentRootPath: "wiki",
       collapseDepth: 2,
       capitalizeFirst: true,
       useTitleFromFileHeading: true,

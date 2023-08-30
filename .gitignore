@@ -1,1 +1,3 @@
 node_modules
+wiki/.vitepress/cache/deps
+wiki/.vitepress/dist
