@@ -1,10 +1,6 @@
-# bonsai
+# ☘️ bonsai
 
----
-
-View on [wiki.bignutty.xyz](https://wiki.bignutty.xyz).
-
-This is our own personal digital garden, collecting and sharing facinating info around the internet. This is a collaborative endeavour.
+This is our ☘️ personal digital garden, collecting and sharing facinating info around the internet. This is a collaborative endeavour.
 
 It's powered by [Vitepress](https://vitepress.dev) for documentation with custom theming.
 
