@@ -1,3 +1,5 @@
+# Docker
+
 ## Runtime
 - [Docker](https://www.docker.com/)
 - [Podman](https://podman.io/) 
@@ -7,13 +9,13 @@
  - [Linuxserver](https://www.linuxserver.io/)
  - [Hotio](https://hotio.dev/) 
 
-# User Interface
+## User Interface
 - [Portainer](https://docs.portainer.io/) - Great Management UI
 - [Lazy Docker](https://github.com/jesseduffield/lazydocker) - Terminal UI for docker
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) 
 - [Podman Desktop](https://podman-desktop.io/)
 
-# Management
+## Management
 - [Watchtower](https://containrrr.dev/watchtower/) - Automatically update containers
 - [Autoheal](https://github.com/willfarrell/docker-autoheal) - Monitor and restart unhealthy containers 
 - [Dozzle](https://dozzle.dev/)- Realtime log viewer 
