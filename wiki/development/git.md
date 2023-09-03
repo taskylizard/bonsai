@@ -7,6 +7,11 @@
 - [Lucky Commit](https://github.com/not-an-aardvark/lucky-commit) - Customize your git commit hashes
 - [git-annex](https://git-annex.branchable.com)
 
+## Build your own Git
+
+- [DIY Git in Python](https://www.leshenko.net/p/ugit/)
+- [codecrafters-io/build-your-own-x#build-your-own-git](https://github.com/codecrafters-io/build-your-own-x#build-your-own-git)
+
 ## Bidirectional syncing of repository
 
 This is a guide on how to setup a bidirectional git mirror for a repository. This is also how this wiki is synced.
